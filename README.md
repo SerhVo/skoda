@@ -1,7 +1,10 @@
+
+
+
 # New Kodiaq Website
 
 
-This is a promotional website for the new Škoda Kodiaq model, showcasing its features, design, and user testimonials. The website implements smooth scrolling for navigation, lazy loading for images, and modal windows for user sign-up.
+This is a promotional landing website for the new Škoda Kodiaq model, showcasing its features, design, and user testimonials. The website implements smooth scrolling for navigation, lazy loading for images, and modal windows for user sign-up.
 
 Key Features:
 
