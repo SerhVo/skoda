@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/svg" href="img/SkodaLogoNew.svg" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Kodiaq</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/SkodaLogoNew.svg"
+          alt="logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Можливості</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Деталі</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Відгуки</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Приєднуйтесь</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          New Kodiaq
+          <br />
+          <span class="highlight"> чекає</span> на вас
+        </h1>
+        <!-- <h4>Новий вимір комфорту</h4> -->
+        <button class="btn--text btn--scroll-to">Read more &DownArrow;</button>
+        <img src="img/hero.webp" class="header__img" alt="img" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Можливості</h2>
+        <h3 class="section__header">Основні причини обрати цю Škoda</h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/Default_bp1920_1 (5).webp"
+          data-src="img/Default_bp1920_1 (5).webp"
+          alt="img"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Новітні технології у вас під рукою</h5>
+          <p>
+            Не вагайтеся, коли справа стосується вашого нового автомобіля.
+            Kodiaq оснащено найновішими технологіями, що допомагають йому бути
+            надійним супутником у будь-якій ситуації: на звичайних дорогах, на
+            бездоріжжі та в умовах підвищеної складності.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Спортивний дизайн</h5>
+          <p>
+            Чіткі, елегантні лінії в поєднанні з характерним світловим підписом,
+            елементами з чорного зернистого пластику та колісними дисками до 20
+            дюймів роблять Kodiaq надійним і водночас динамічним та стильним
+            автомобілем із дизайном, непідвладним часу.
+          </p>
+        </div>
+        <img
+          src="img/Default_bp992_1.webp"
+          data-src="img/Default_bp992_1.webp"
+          alt="img"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/Default_bp1920_1 (6).webp"
+          data-src="img/Default_bp1920_1 (6).webp"
+          alt="img"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Безпека понад усе</h5>
+          <p>
+            Непідвладний часу дизайн та комфорт є унікальними характеристиками,
+            але найважливішим елементом під час подорожі є безпека нас самих і
+            оточуючих. До 9 подушок безпеки, ряд передових систем асистентів
+            допомоги водієві та функція eCall* роблять Kodiaq безпечним
+            автомобілем незалежно від ситуації. eCall* - * функція недоступна на
+            ринку України
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Деталі</h2>
+        <h3 class="section__header">Розумні деталі Škoda Kodiaq</h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Електричний замок
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Захист краю дверей
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Інтегрована лійка
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Електричний замок безпеки для дітей
+          </h5>
+          <p>
+            Використання механічного замка безпеки задніх дверей для дітей
+            вимагає бути передбачливим, коли ви перебуваєте в автомобілі з
+            дітьми, а іноді і з дорослими. Ви можете будь-коли вмикати та
+            вимикати
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Захист краю дверей</h5>
+          <p>
+            Пластикові протектори, що автоматично висуваються, є одним із
+            практичних рішень у повсякденному житті, яке сподобається вам у
+            Kodiaq. Вони підпружинені, тож коли двері відкриваються,
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Інтегрована лійка в бачку омивача переднього скла
+          </h5>
+          <p>
+            Ви також можете знайти рішення Simply Clever під капотом. Kodiaq
+            містить гумову кришку для бачка омивача. Вона перетворюється на
+            практичну лійку, щоб ви могли
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Все ще не впевнені?</h2>
+        <h3 class="section__header">
+          Мільйони людей по всьому світу довірили Skoda.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Skoda Kodiaq 2022</h5>
+            <blockquote class="testimonial__text">
+              Купував в салоні шкода кодіак L&K 2022 року під індивідуальне
+              замовлення. Максимальна комплектація, окрім панорами і фаркопа.
+              Автомобіль в загальному сподобався, але є мінуси які дратують.
+              Перше що відчувається це жорсткість підвіски, як на мене при таких
+              габаритах і вазі, авто повинно бути м’яким, але нажально як на
+              мене дуже жорстка. Друге брав максимальну потужність 200 л.с.,
+              цього двигуна як на мене мало, для жінок згодиться, а для
+              чоловіків, які не полюбляють дрімати в дорозі буде маловато.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="img" class="testimonial__photo" />
+              <h6 class="testimonial__name">Максим</h6>
+              <p class="testimonial__location">Київ</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Я довго сумнівалася, але в підсумку не пошкодувала
+            </h5>
+            <blockquote class="testimonial__text">
+              Взяли із салону у квітні 21 року, дизель 200лс/ версія Спортлайн -
+              7місць, задоволений повністю. Пробіг за цей час 7300. Відмінна
+              шумоізоляція - витрата середня близько 7і літрів/ якщо економити
+              можна і на 5.5 вийти. Дизель у мене перший/ під час руху взагалі
+              не чути в салоні/ комплектація практично повна - панорама,
+              підігріви всього, адаптивний та інші плюшки.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="img" class="testimonial__photo" />
+              <h6 class="testimonial__name">Христина</h6>
+              <p class="testimonial__location">Лʼвів</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Нарешті я вирішив усі свої проблеми
+            </h5>
+            <blockquote class="testimonial__text">
+              2 TDI 200 к.с. Спортлайн Проіхав 4500 км. Хочу залишити відгук, бо
+              сам дуже шукав інформацію про цей автомобіль. Відгуку він вартий.
+              Мав і маю Мітсубісі Паджеро Спорт 2019, Субару Форестер 2007.
+              Обирав між РАВ4, Фольксваген Тігуан. Дивився Ніссан, Хюндай,
+              Мазда. Дизайн - я консервативна людина в деяких поглядах, і мені
+              таке подобається. але спортлайн ДУЖЕ достойно виглядає на трасі і
+              взагалі. Поставив проставки на передні і задні колеса, деякі
+              маленькі молденги, так тепер взагалі - УХ.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="img" class="testimonial__photo" />
+              <h6 class="testimonial__name">Сергій</h6>
+              <p class="testimonial__location">Дніпро</p>
+            </address>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Сьогодні найкращий день, щоб зробити перший крок назустріч кращому
+          завтра. Обирай Skoda
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Приєднуйтесь до нас</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Гаряча лінія</a>
+          <p class="footer__link">0(800)500-023</p>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Про нас</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Моделі</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Сервіс</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Послуги</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Блог</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Прайс-листи Škoda</a>
+        </li>
+      </ul>
+      <img src="img/SkodaLogoNew.svg" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; 2024 Skoda Auto. Всі права захищені.
+      </p>
+
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Приєднуйтесь до нас<br />
+        всього лише за <span class="highlight">5 мінут</span>
+      </h2>
+      <form class="modal__form">
+        <label>Імʼя</label>
+        <input type="text" />
+        <label>Прізвище</label>
+        <input type="text" />
+        <label>Email</label>
+        <input type="email" />
+        <button class="btn">Вперед &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
